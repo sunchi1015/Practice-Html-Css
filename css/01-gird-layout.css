@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  color: #000;
+}
+
+.container {
+  background: #d7dae0;
+  display: grid;
+  grid-template-rows: auto 30px;
+  grid-template-columns: 300px 1fr;
+  height: 100vh;
+}
+
+.panel {
+  display: grid;
+  grid-template-rows: 30px auto;
+  height: calc(100vh - 30px);
+}
+
+.panel-body {
+  overflow: auto;
+}
+
+.main {
+  background: #2c313a;
+}
+
+.side {
+  background: #c5cad3;
+}
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: #d7dae0;
+}
