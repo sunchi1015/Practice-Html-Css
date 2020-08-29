@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  color: #000;
 }
 
 .container {
@@ -16,11 +15,19 @@ body {
   grid-template-rows: 30px auto;
   height: calc(100vh - 30px);
 }
-
+.panel-header{
+background: lightblue;
+}
 .panel-body {
   overflow: auto;
+background:darkgoldenrod;
 }
 
+.panel-body > div {
+  height: 300px;
+  background: crimson;
+  margin: 10px;
+}
 .main {
   background: #2c313a;
 }
